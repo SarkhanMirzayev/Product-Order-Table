@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Commerce</title>
+</head>
+
+<body>
+    <div class="container">
+        <table class="table table-dark" id="topTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Country</th>
+                    <th>Exp. Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="selectedRow">
+                    <td>Caviar</td>
+                    <td>Azerbaijan</td>
+                    <td>12.19.2019</td>
+                </tr>
+                <tr>
+                    <td>Cheese</td>
+                    <td>Georgia</td>
+                    <td>12.19.2019</td>
+                </tr>
+                <tr>
+                    <td>Butter</td>
+                    <td>New Zealand</td>
+                    <td>12.19.2019</td>
+                </tr>
+                <tr>
+                    <td>Cheese</td>
+                    <td>Georgia</td>
+                    <td>12.19.2019</td>
+                </tr>
+                <tr>
+                    <td>Caviar</td>
+                    <td>Azerbaijan</td>
+                    <td>12.19.2019</td>
+                </tr>
+                <tr>
+                    <td>Butter</td>
+                    <td>New Zealand</td>
+                    <td>12.19.2019</td>
+                </tr>
+                <tr>
+                    <td>Cheese</td>
+                    <td>Georgia</td>
+                    <td>12.19.2019</td>
+                </tr>
+                <tr>
+                    <td>Caviar</td>
+                    <td>Azerbaijan</td>
+                    <td>12.19.2019</td>
+                </tr>
+                <tr>
+                    <td>Butter</td>
+                    <td>New Zealand</td>
+                    <td>12.19.2019</td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="btn btn-warning" style="width: 100%;">Selected Orders Table</button>
+    </div>
+    <div class="container" id="subDiv">
+        <table class="table table-dark" id="headDiv">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Country</th>
+                    <th>Exp. Date</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody id="subTBody"></tbody>
+        </table>
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

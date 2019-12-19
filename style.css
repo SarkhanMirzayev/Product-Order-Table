@@ -1,0 +1,15 @@
+.red{
+    background-color: red;
+}
+
+#topTable tbody tr:hover{
+    background-color:none !important;
+}
+
+.selectedRow{
+    background-color: #ff0000;
+}
+
+.bottomTable{
+    background-color:#42aaf5;
+}
